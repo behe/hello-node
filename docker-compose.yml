@@ -2,7 +2,3 @@ hello-node:
   build: .
   ports:
     - 8000:8000
-remote:
-  image: behe/hello-node
-  ports:
-    - 8000:8000
