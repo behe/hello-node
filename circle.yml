@@ -7,9 +7,9 @@ dependencies:
   override:
     - docker-compose -p ci build
     - docker-compose -p ci up -d
-# test:
-#   override:
-#     - docker-compose run hello-node npm test
+test:
+  override:
+    - echo "🎉"
 # deployment:
 #   hub:
 #     branch: master
